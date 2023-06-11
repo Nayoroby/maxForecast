@@ -1,0 +1,43 @@
+.card__content {
+    padding: 20px 50px;
+    border: 2px solid #4d4d4d;
+    border-radius: 20px;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.main__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__text{
+        font-size: 25px;
+    }
+    margin-right: 30px;
+}
+
+.state {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__text{
+        font-size: 25px;
+    }
+}
+
+.second__info {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
